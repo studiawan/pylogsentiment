@@ -1,0 +1,8 @@
+auth
+daemon
+debug
+dmesg
+kern
+messages
+syslog
+memory

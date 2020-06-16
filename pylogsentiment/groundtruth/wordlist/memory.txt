@@ -1,0 +1,6 @@
+terminated
+protocol error
+connection failed
+error:
+connection drop
+failed to

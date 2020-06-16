@@ -1,0 +1,50 @@
+invalid user
+received disconnect from
+did not receive identification string from
+connection reset by peer
+write ident string
+authentication failure
+bad protocol version identification
+connection closed
+reverse mapping checking getaddrinfo
+this does not map back to the address
+failed password
+failed to
+ignoring max retries
+ignoring pam_tty
+received disconnect
+open failed
+root login refused
+protocol major versions differ
+failed none
+dispatch_protocol_error
+corrupted mac
+error: bind to port
+user not in sudoers
+new password not acceptable
+unable to resolve host
+failed su
+failed login
+illegal user
+scanned from
+last message repeated
+fatal: mm_request_send:
+fatal: timeout before authentication
+fail:
+root privileges on behalf
+failed
+bad username
+couldn't lookup
+killed by
+stopping
+no service
+does not support
+unmanaged device found
+no servers
+no dhcpoffers
+no working
+can't create
+not well known
+can't remove
+no longer
+no such process

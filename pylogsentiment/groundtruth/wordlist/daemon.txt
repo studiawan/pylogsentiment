@@ -1,0 +1,23 @@
+failed
+no service
+can't init
+unable
+killed
+removed
+invalid
+stopping
+disappeared
+does not support
+not well known
+unmanaged device
+no longer relevant
+no servers
+callout stop
+no such process
+no service file
+no dhcpoffers
+no working
+can't create
+can't remove
+was disconnected
+false

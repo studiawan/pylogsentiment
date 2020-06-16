@@ -1,0 +1,32 @@
+cannot find
+disable
+disabling
+could not be reserved
+invalid
+not available
+no dock
+not detected
+failed
+not permitted
+not enabled
+unregistered
+no plug
+incorrect
+not available
+is off
+doesn't support
+deleted
+stolen memory
+not detected
+no ps/2
+no devices
+is not ready
+no test
+wrong wep
+warning!
+not supported
+miss
+error
+strange
+weird
+no ibft

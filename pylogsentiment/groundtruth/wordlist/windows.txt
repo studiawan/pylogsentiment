@@ -1,0 +1,21 @@
+false
+failed
+not set
+not required
+unsent
+warning
+terminated
+disabling
+not lock
+destroyed
+state: absent
+: staged
+applicability: absent
+uninstalling package
+unprojecting package
+pended transaction
+pended the transaction
+null
+blocked system
+not trying
+error status

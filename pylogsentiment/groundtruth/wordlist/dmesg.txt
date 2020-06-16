@@ -1,0 +1,26 @@
+disable
+disabling
+unregistered
+could not be reserved
+invalid
+no plug
+doesn't support
+not detected
+deleted
+no dock
+stolen memory
+incorrect
+not available
+not enabled
+is off
+not supported
+no ps/2
+miss
+is not ready
+failed
+error
+strange
+weird
+no ibft
+no test
+warning!
