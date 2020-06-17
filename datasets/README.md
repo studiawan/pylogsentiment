@@ -15,9 +15,9 @@ The directory `pylogsentiment/datasets` contains `$DATASET_NAME$/logs/` and it s
 
 ## Download datasets from mega.nz
 
-There are four datasets hosted on mega.nz: `casper-rw`, `dfrws-2009-jhuisi`, `dfrws-2009-nssal`, and `honeynet-challenge-7`.
+There are four datasets hosted on mega.nz: `casper-rw`, `dfrws-2009-jhuisi`, `dfrws-2009-nssal`, `honeynet-challenge-7`, `honeynet-challenge5`, and `Windows`.
 
-`megadl https://mega.nz/#F!yEoVHSpZ!Nj1953VllENG2uw-NgphYg`
+`megadl 'https://mega.nz/#F!yEoVHSpZ!Nj1953VllENG2uw-NgphYg'`
 
 If there is no `megadl` on your system, please install:
 
@@ -27,7 +27,7 @@ Or we can download directly on a web browser https://mega.nz/#F!yEoVHSpZ!Nj1953V
 
 ## Download datasets from LogHub
 
-There are six datasets from LogHub and they are hosted on Zenodo. 
+There are datasets from LogHub and they are hosted on Zenodo. 
 
 `wget https://zenodo.org/record/3227177/files/BGL.tar.gz`
 
@@ -35,14 +35,10 @@ There are six datasets from LogHub and they are hosted on Zenodo.
 
 `wget https://zenodo.org/record/3227177/files/Hadoop.tar.gz`
 
-`wget https://zenodo.org/record/3227177/files/HDFS_1.tar.gz`
-
-`wget https://zenodo.org/record/3227177/files/Thunderbird.tar.gz`
-
-`wget https://zenodo.org/record/3227177/files/HPC.tar.gz`
+`wget https://zenodo.org/record/3227177/files/Spark.tar.gz`
 
 ## Extract all datasets
 
 `tar -xzvf *.tar.gz`
 
-Place all log datasets as described in the first section above with format `$DATASET_NAME$/logs/`. 
+Place all log files (file only without its directory) as described in the first section above with format `$DATASET_NAME$/logs/`. 
