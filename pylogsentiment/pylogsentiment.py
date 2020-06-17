@@ -145,3 +145,19 @@ def main():
                       action='store',
                       dest='output_file',
                       help='Anomaly detection results.')
+
+    # get options
+    (options, args) = parser.parse_args()
+    input_file = options.input_file
+    output_file = options.output_file
+
+    if options.input_file:
+        pylogsentiment = PyLogSentiment(input_file, output_file)
+        pylogsentiment.detect_anomaly()
+
+    else:
+        print('Please see help: pylogsentiment -h')
+
+
+if __name__ == "__main__":
+    main()
