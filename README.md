@@ -45,7 +45,7 @@ If you want to build the ground truth by your own, follow these steps. In the pr
 
 ## Training your own model with `pylogsentiment`
 
-To train your own model, please download and build ground truth as described above. Then, we can run this command:
+To train your own model, please download and build ground truth as described above. Subsequently, download and extract GloVe word embedding as [described here](https://github.com/studiawan/pylogsentiment/blob/master/glove/README.md). Then, we can run this command:
 
 `python pylogsentiment/experiment/experiment.py pylogsentiment`
 
