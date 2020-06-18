@@ -50,8 +50,8 @@ class LogGrammar(object):
         core1 = Word(alphas + nums + '-' + ':' + '_')
         datetime = Combine(ints + '-' + ints + '-' + ints + '-' + ints + '.' + ints + '.' + ints + '.' + ints)
         core2 = Word(alphas + nums + '-' + ':' + '_')
-        source = Word(alphas)
-        service = Word(alphas)
+        source = Word(alphas + '(' + ')')
+        service = Word(alphas + '_')
         info_type = Word(alphas)
         message = Regex('.*')
 
