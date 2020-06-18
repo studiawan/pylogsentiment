@@ -22,7 +22,7 @@ class KerasEmbedding(object):
         current_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'glove'))
         glove_path = os.path.join(current_path, self.glove_file)
         word_index = {}
-        embedding_matrix = {}
+        embedding_matrix = np.zeros((self.MAX_NUM_WORDS+1, self.GLOVE_DIM))
 
         index = 1   # start from 1 because 0 is for out of vocabulary
         with open(glove_path, 'r') as f:

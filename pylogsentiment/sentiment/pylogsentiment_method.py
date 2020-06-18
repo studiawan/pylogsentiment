@@ -41,7 +41,7 @@ class PyLogSentimentMethod(object):
 
     def train_pylogsentiment(self):
         # build model and compile
-        embedding_layer = Embedding(self.MAX_NUM_WORDS,
+        embedding_layer = Embedding(self.MAX_NUM_WORDS+1,
                                     self.GLOVE_DIM,
                                     weights=[self.embedding_matrix],
                                     input_length=self.MAX_PAD,
