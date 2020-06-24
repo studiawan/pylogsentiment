@@ -25,11 +25,16 @@ To run the `pylogsentiment` tool, please follow these steps.
 5. Install `pylogsentiment`
 
    `pip install -e .`
+   
+## Download the model file
+
+To run `pylogsentiment`, we need to download the model file and word index file. When downloading the datasets using `megadl` command, both files are also downloaded. Please [read here]((https://github.com/studiawan/pylogsentiment/blob/master/datasets/README.md)) for instructions.
+Note that both files should be placed in `pylogsentiment/datasets/` directory.
 
 ## How to run `pylogsentiment`
 To run `pylogsentiment`, type the command:
 
-`pylogsentiment -i log_file.log -o results_file.csv`
+`python pylogsentiment/pylogsentiment.py -i log_file.log -o results_file.csv`
 
 where `log_file.log` is the input log file and `results_file.csv` is the anomaly detection results in a CSV file.
 
