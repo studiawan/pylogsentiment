@@ -11,10 +11,10 @@ from nerlogparser.nerlogparser import Nerlogparser
 
 
 class PyLogSentiment(object):
-    def __init__(self, log_file, output_file=''):
+    def __init__(self, log_file, output_file=None):
         self.log_file = log_file
         self.output_file = output_file
-        self.base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'datasets'))
+        self.base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'datasets'))
         self.parser = Nerlogparser()
         self.stopwords = corpus.stopwords.words('english')
         self.MAX_PAD = 10
@@ -93,7 +93,7 @@ class PyLogSentiment(object):
 
     def __save_to_csv(self, y_pred):
         # output csv file
-        if self.output_file == '':
+        if self.output_file is None:
             self.output_file = os.path.join(self.log_file + '.anomaly-results.csv')
 
         f_csv = open(self.output_file, 'wt')
@@ -103,7 +103,7 @@ class PyLogSentiment(object):
         with open(self.log_file) as f:
             for line_index, line in enumerate(f):
                 if line not in ['\n', '\r\n']:
-                    writer.writerow([y_pred[line_index], line])
+                    writer.writerow([y_pred[line_index], line.rstrip()])
 
         print('Write anomaly detection results to:', self.output_file)
         f_csv.close()
