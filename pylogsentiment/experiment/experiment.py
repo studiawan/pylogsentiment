@@ -48,8 +48,7 @@ class Experiment(object):
         # test to each dataset, save performance metrics
         for dataset in self.datasets:
             x_test, y_test = self.__read_test_set(dataset)
-            precision, recall, f1, accuracy, tp, fp, tn, fn, positives, negatives = \
-                model.test_pylogsentiment(x_test, y_test)
+            precision, recall, f1, accuracy = model.test_pylogsentiment(x_test, y_test)
             writer.writerow([dataset, self.method, precision, recall, f1, accuracy])
 
         f.close()
