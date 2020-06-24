@@ -28,7 +28,7 @@ To run the `pylogsentiment` tool, please follow these steps.
    
 ## Download the model file
 
-To run `pylogsentiment`, we need to download the model file and word index file. When downloading the datasets using `megadl` command, both files are also downloaded. Please [read here]((https://github.com/studiawan/pylogsentiment/blob/master/datasets/README.md)) for instructions.
+To run `pylogsentiment`, we need to download the model file and word index file. When downloading the datasets using `megadl` command, both files are also downloaded. Please [read here](https://github.com/studiawan/pylogsentiment/blob/master/datasets/README.md) for instructions.
 Note that both files should be placed in `pylogsentiment/datasets/` directory.
 
 ## How to run `pylogsentiment`
