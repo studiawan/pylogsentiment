@@ -1,0 +1,96 @@
+link down
+disable
+assertion failed
+failed
+error
+unrecognized attribute
+inactive
+off
+alert
+however
+but the start
+dealloc
+is not attached
+skipping current file
+exiting ccfile
+has no prefix
+returned false
+terminated
+stop
+suspended
+no sleep
+hit by torpedo
+unable
+deny
+not found
+idle cancel
+killing
+destroyed
+invalidated
+refusing
+deferring
+unexpected
+break on
+ignored
+abnormal
+not captive
+purged
+warning
+is not reachable
+no application
+breaking constraint
+no response
+tried to hijack
+unrecognized
+rejecting report
+no updates
+invalidating
+no functional
+"couldnt find"
+doesn't have account
+no interfaces
+was not able
+did not resolve
+could not
+removed expired
+timed out
+not a valid
+outside of
+lock timeout
+may not appear
+not locked
+disallowed
+excessive wakeups
+removing excessive
+unmapped
+null connection
+invalid connection
+this may be a leak
+no caching servers
+segmentation fault
+not supported
+timeout
+terminate
+ignoring
+network problem
+cancelling remaining
+time out
+is deprecated
+crash report
+no sandbox
+dead connection
+discarding exception
+no value:
+does not have
+unknown class
+nil string argument
+null shield_window
+returned null
+ordering out
+no items found
+will not be touched
+unhandled exception
+uncommited catransaction
+service exited
+are dropping
+while locked

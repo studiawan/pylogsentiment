@@ -1,0 +1,142 @@
+invalid user
+received disconnect from
+did not receive identification string from
+connection reset by peer
+write ident string
+authentication failure
+bad protocol version identification
+connection closed
+reverse mapping checking getaddrinfo
+this does not map back to the address
+failed password
+failed to
+ignoring max retries
+ignoring pam_tty
+received disconnect
+open failed
+root login refused
+protocol major versions differ
+failed none
+dispatch_protocol_error
+corrupted mac
+error: bind to port
+user not in sudoers
+new password not acceptable
+unable to resolve host
+failed su
+failed login
+illegal user
+scanned from
+last message repeated
+fatal: mm_request_send:
+fatal: timeout before authentication
+fail:
+root privileges on behalf
+failed
+bad username
+couldn't lookup
+killed by
+stopping
+no service
+does not support
+unmanaged device found
+no servers
+no dhcpoffers
+no working
+can't create
+not well known
+can't remove
+no longer
+no such process
+cannot find
+disable
+could not be reserved
+invalid
+not available
+no dock
+not detected
+failed
+not permitted
+not enabled
+unregistered
+no plug
+incorrect
+not available
+is off
+doesn't support
+deleted
+stolen memory
+not detected
+no ps/2
+killed by
+could not associate
+unable to
+removed
+can't init
+dropping
+deactivating
+not running
+no service
+stopping
+error
+hal disappeared
+stopped
+does not support
+not well known
+unmanaged device
+no ipv6
+no devices
+strange
+weird
+no ibft
+can't remove
+can't create
+wrong wep
+warning!
+is not ready
+no servers
+no dhcpoffers
+no working
+was disconnected
+not well known
+promiscuous mode
+no test
+not supported
+miss
+disabling
+no longer relevant
+didn't pass
+no such process
+false
+cannot find
+disable
+disabling
+could not be reserved
+invalid
+not available
+no dock
+not detected
+failed
+not permitted
+not enabled
+unregistered
+no plug
+incorrect
+not available
+is off
+doesn't support
+deleted
+stolen memory
+not detected
+no ps/2
+no devices
+is not ready
+no test
+wrong wep
+warning!
+not supported
+miss
+error
+strange
+weird
+no ibft
